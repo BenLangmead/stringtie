@@ -875,13 +875,12 @@ void processOptions(GArgs& args) {
 
 	 s=args.getOpt('g');
 	 if (!s.is_empty()) bundledist=s.asInt();
+	 else if(mergeMode) bundledist=250; // should figure out here a reasonable parameter for merge
 	 s=args.getOpt('p');
 	 if (!s.is_empty()) {
 		   num_cpus=s.asInt();
 		   if (num_cpus<=0) num_cpus=1;
 	 }
-	 else if(mergeMode) bundledist=250; // should figure out here a reasonable parameter for merge
-
 	 s=args.getOpt('a');
 	 if (!s.is_empty()) {
 		 junctionsupport=(uint)s.asInt();
