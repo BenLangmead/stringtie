@@ -80,8 +80,8 @@ the following options are available:\n\
                     (default: 1.0)\n\
   -f <min_iso>     minimum isoform fraction (default: 0.01)\n\
   -g <gap_len>     gap between transcripts to merge together (default: 250)\n\
-  -i               keep merged transcripts with retained introns; be default\n\
-  	  	  	  	   these are not kept unless there is strong evidence for them\n\
+  -i               keep merged transcripts with retained introns; by default\n\
+                   these are not kept unless there is strong evidence for them\n\
   -l <label>       name prefix for output transcripts (default: MSTRG)\n\
 "
 /* 
