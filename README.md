@@ -6,7 +6,6 @@ The current version of StringTie can also be downloaded from
 In order to build StringTie from this GitHub repository
 the following steps can be taken:
  
-* Unpack the downloaded StringTie source archive in a directory of your choice, e.g.:
 ```
 git clone https://github.com/gpertea/stringtie
 cd stringtie
@@ -59,22 +58,25 @@ usage message):
 Transcript merge usage mode:
 
  stringtie --merge [Options] { gtf_list | strg1.gtf ...}
-With this option StringTie will assemble transcripts from multiple\n\
-input files generating a unified non-redundant set of isoforms. In this\n\
-usage mode the following options are available:\n\
-  -G <guide_gff>   reference annotation to include in the merging (GTF/GFF3)\n\
-  -o <out_gtf>     output file name for the merged transcripts GTF\n\
-                    (default: stdout)\n\
-  -m <min_len>     minimum input transcript length to include in the merge\n\
-                    (default: 50)\n\
-  -c <min_cov>     minimum input transcript coverage to include in the merge\n\
-                    (default: 0)\n\
-  -F <min_fpkm>    minimum input transcript FPKM to include in the merge\n\
-                    (default: 0)\n\
-  -T <min_tpm>     minimum input transcript TPM to include in the merge\n\
-                    (default: 0)\n\
-  -f <min_iso>     minimum isoform fraction (default: 0.01)\n\
-  -l <label>       name prefix for output transcripts (default: MSTRG)\n\
+With this option StringTie will assemble transcripts from multiple
+input files generating a unified non-redundant set of isoforms. In this
+usage mode the following options are available:
+  -G <guide_gff>   reference annotation to include in the merging (GTF/GFF3)
+  -o <out_gtf>     output file name for the merged transcripts GTF
+                    (default: stdout)
+  -m <min_len>     minimum input transcript length to include in the merge
+                    (default: 50)
+  -c <min_cov>     minimum input transcript coverage to include in the merge
+                    (default: 0)
+  -F <min_fpkm>    minimum input transcript FPKM to include in the merge
+                    (default: 0)
+  -T <min_tpm>     minimum input transcript TPM to include in the merge
+                    (default: 0)
+  -f <min_iso>     minimum isoform fraction (default: 0.01)
+  -g <gap_len>     gap between transcripts to merge together (default: 250)
+  -i               keep merged transcripts with retained introns; by default
+                   these are not kept unless there is strong evidence for them
+  -l <label>       name prefix for output transcripts (default: MSTRG)
 ```
 
 ##Input files
