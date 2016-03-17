@@ -1,29 +1,22 @@
 ##Obtaining and installing StringTie
 
-The current version of StringTie can be downloaded from
+The current version of StringTie can also be downloaded from
   http://ccb.jhu.edu/software/stringtie
   
-In order to build StringTie from the source package,
-the following steps should be taken:
-
+In order to build StringTie from this GitHub repository
+the following steps can be taken:
+ 
 * Unpack the downloaded StringTie source archive in a directory of your choice, e.g.:
 ```
-cd ~/src/
-tar xvfz ~/Downloads/stringtie-V.V.V.tar.gz
-```
-A directory called stringtie-V.V.V (where V.V.V is the current
-numeric version of the program) will be created in the current directory.
-
-* Change to that directory and build the stringtie executable:
-```
-cd stringtie-V.V.V
+git clone https://github.com/gpertea/stringtie
+cd stringtie
 make release
 ```
+
 Note that simply running `make` will produce an executable 
 which is more suitable for debugging and runtime checking but which can be
 significantly slower than the optimized version which is obtained by using 
 `make release`.
-
 
 ##Running StringTie
 
