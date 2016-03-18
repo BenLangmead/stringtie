@@ -391,6 +391,10 @@ if (ballgown)
 if (tstackSize<DEF_TSTACK_SIZE) defStackSize=DEF_TSTACK_SIZE;
  if (verbose) {
 	 GMessage("Default stack size for threads: %d\n", tstackSize);
+	 if (defStackSize>0) {
+		 int ssize=defStackSize;
+		 GMessage(" Increased thread stack size to %d .\n", ssize);
+	 }
  }
  GThread* threads=new GThread[num_cpus]; //bundle processing threads
 
@@ -1237,8 +1241,8 @@ void processBundle(BundleData* bundle) {
 	  NumFrag3+=bundle->num_fragments3;
 	  SumFrag3+=bundle->sum_fragments3;
 	  fprintf(stderr,"Number of fragments in bundle: %g with length %g\n",bundle->num_fragments,bundle->frag_len);
-	  */
 	  fprintf(stderr,"Number of fragments in bundle: %g with sum %g\n",bundle->num_fragments,bundle->frag_len);
+	  */
 	  GMessage("^bundle %s:%d-%d(%d) done (%d processed potential transcripts).\n",bundle->refseq.chars(),
 	  		bundle->start, bundle->end, bundle->readlist.Count(), bundle->pred.Count());
 	#ifdef GMEMTRACE
