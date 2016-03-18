@@ -390,11 +390,11 @@ if (ballgown)
  size_t defStackSize=0;
 if (tstackSize<DEF_TSTACK_SIZE) defStackSize=DEF_TSTACK_SIZE;
  if (verbose) {
-	 GMessage("Default stack size for threads: %d\n", tstackSize);
-	 if (defStackSize>0) {
+	 if (defStackSize>0){
 		 int ssize=defStackSize;
-		 GMessage(" Increased thread stack size to %d .\n", ssize);
+		 GMessage("Default stack size for threads: %d (increased to %d)\n", tstackSize, ssize);
 	 }
+	 else GMessage("Default stack size for threads: %d\n", tstackSize);
  }
  GThread* threads=new GThread[num_cpus]; //bundle processing threads
 
