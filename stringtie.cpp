@@ -385,9 +385,12 @@ const char* ERR_BAM_SORT="\nError: the input alignment file is not sorted!\n";
 if (ballgown)
  Ballgown_setupFiles(f_tdata, f_edata, f_idata, f_e2t, f_i2t);
 #ifndef NOTHREADS
+#define DEF_TSTACK_SIZE 8388608
+ int tstackSize=GThread::defaultStackSize();
+ size_t defStackSize=0;
+if (tstackSize<DEF_TSTACK_SIZE) defStackSize=DEF_TSTACK_SIZE;
  if (verbose) {
-	 int ssize=GThread::defaultStackSize();
-	 GMessage("Default stack size for threads: %d\n", ssize);
+	 GMessage("Default stack size for threads: %d\n", tstackSize);
  }
  GThread* threads=new GThread[num_cpus]; //bundle processing threads
 
@@ -398,7 +401,7 @@ if (ballgown)
 
  dataClear.setCapacity(num_cpus+1);
  for (int b=0;b<num_cpus;b++) {
-	 threads[b].kickStart(workerThread, (void*) &bundleQueue);
+	 threads[b].kickStart(workerThread, (void*) &bundleQueue, defStackSize);
 	 bundles[b+1].idx=b+1;
 	 dataClear.Push(b);
    }
