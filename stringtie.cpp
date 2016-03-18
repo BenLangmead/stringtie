@@ -385,6 +385,10 @@ const char* ERR_BAM_SORT="\nError: the input alignment file is not sorted!\n";
 if (ballgown)
  Ballgown_setupFiles(f_tdata, f_edata, f_idata, f_e2t, f_i2t);
 #ifndef NOTHREADS
+ if (verbose) {
+	 int ssize=GThread::defaultStackSize();
+	 GMessage("Default stack size for threads: %d\n", ssize);
+ }
  GThread* threads=new GThread[num_cpus]; //bundle processing threads
 
  GPVec<BundleData> bundleQueue(false); //queue of loaded bundles
