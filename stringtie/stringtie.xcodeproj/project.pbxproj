@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECDC597F1CDD782A00D48397 /* rlink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECDC59771CDD782A00D48397 /* rlink.cpp */; settings = {ASSET_TAGS = (); }; };
+		ECDC59801CDD782A00D48397 /* stringtie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECDC59791CDD782A00D48397 /* stringtie.cpp */; settings = {ASSET_TAGS = (); }; };
+		ECDC59811CDD782A00D48397 /* tablemaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECDC597A1CDD782A00D48397 /* tablemaker.cpp */; settings = {ASSET_TAGS = (); }; };
+		ECDC59821CDD782A00D48397 /* tmerge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECDC597C1CDD782A00D48397 /* tmerge.cpp */; settings = {ASSET_TAGS = (); }; };
+		ECDC599D1CDD785200D48397 /* codons.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECDC59841CDD785200D48397 /* codons.cpp */; settings = {ASSET_TAGS = (); }; };
+		ECDC599E1CDD785200D48397 /* GArgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECDC59861CDD785200D48397 /* GArgs.cpp */; settings = {ASSET_TAGS = (); }; };
+		ECDC599F1CDD785200D48397 /* GBam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECDC59881CDD785200D48397 /* GBam.cpp */; settings = {ASSET_TAGS = (); }; };
+		ECDC59A01CDD785200D48397 /* GBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECDC598A1CDD785200D48397 /* GBase.cpp */; settings = {ASSET_TAGS = (); }; };
+		ECDC59A11CDD785200D48397 /* gdna.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECDC598D1CDD785200D48397 /* gdna.cpp */; settings = {ASSET_TAGS = (); }; };
+		ECDC59A21CDD785200D48397 /* GFaSeqGet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECDC598F1CDD785200D48397 /* GFaSeqGet.cpp */; settings = {ASSET_TAGS = (); }; };
+		ECDC59A31CDD785200D48397 /* gff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECDC59911CDD785200D48397 /* gff.cpp */; settings = {ASSET_TAGS = (); }; };
+		ECDC59A41CDD785200D48397 /* GStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECDC59961CDD785200D48397 /* GStr.cpp */; settings = {ASSET_TAGS = (); }; };
+		ECDC59A51CDD785200D48397 /* GThreads.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECDC59981CDD785200D48397 /* GThreads.cpp */; settings = {ASSET_TAGS = (); }; };
+		ECDC59A61CDD785200D48397 /* proc_mem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECDC599B1CDD785200D48397 /* proc_mem.cpp */; settings = {ASSET_TAGS = (); }; };
+		ECDC5A0F1CDE38F400D48397 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDC5A0E1CDE38F400D48397 /* libz.tbd */; };
+		ECDC5A121CDE3C0800D48397 /* libbam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDC5A111CDE3C0800D48397 /* libbam.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECDC59671CDD781000D48397 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ECDC59691CDD781000D48397 /* stringtie */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = stringtie; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDC59731CDD782A00D48397 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ECDC59741CDD782A00D48397 /* prep_linux.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = prep_linux.sh; path = ../prep_linux.sh; sourceTree = "<group>"; };
+		ECDC59751CDD782A00D48397 /* prep_mac.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = prep_mac.sh; path = ../prep_mac.sh; sourceTree = "<group>"; };
+		ECDC59761CDD782A00D48397 /* prep_source.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = prep_source.sh; path = ../prep_source.sh; sourceTree = "<group>"; };
+		ECDC59771CDD782A00D48397 /* rlink.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rlink.cpp; path = ../rlink.cpp; sourceTree = "<group>"; };
+		ECDC59781CDD782A00D48397 /* rlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rlink.h; path = ../rlink.h; sourceTree = "<group>"; };
+		ECDC59791CDD782A00D48397 /* stringtie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stringtie.cpp; path = ../stringtie.cpp; sourceTree = "<group>"; };
+		ECDC597A1CDD782A00D48397 /* tablemaker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tablemaker.cpp; path = ../tablemaker.cpp; sourceTree = "<group>"; };
+		ECDC597B1CDD782A00D48397 /* tablemaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tablemaker.h; path = ../tablemaker.h; sourceTree = "<group>"; };
+		ECDC597C1CDD782A00D48397 /* tmerge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tmerge.cpp; path = ../tmerge.cpp; sourceTree = "<group>"; };
+		ECDC597D1CDD782A00D48397 /* tmerge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tmerge.h; path = ../tmerge.h; sourceTree = "<group>"; };
+		ECDC59841CDD785200D48397 /* codons.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = codons.cpp; path = ../gclib/codons.cpp; sourceTree = "<group>"; };
+		ECDC59851CDD785200D48397 /* codons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codons.h; path = ../gclib/codons.h; sourceTree = "<group>"; };
+		ECDC59861CDD785200D48397 /* GArgs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GArgs.cpp; path = ../gclib/GArgs.cpp; sourceTree = "<group>"; };
+		ECDC59871CDD785200D48397 /* GArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GArgs.h; path = ../gclib/GArgs.h; sourceTree = "<group>"; };
+		ECDC59881CDD785200D48397 /* GBam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GBam.cpp; path = ../gclib/GBam.cpp; sourceTree = "<group>"; };
+		ECDC59891CDD785200D48397 /* GBam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBam.h; path = ../gclib/GBam.h; sourceTree = "<group>"; };
+		ECDC598A1CDD785200D48397 /* GBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GBase.cpp; path = ../gclib/GBase.cpp; sourceTree = "<group>"; };
+		ECDC598B1CDD785200D48397 /* GBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBase.h; path = ../gclib/GBase.h; sourceTree = "<group>"; };
+		ECDC598C1CDD785200D48397 /* GBitVec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBitVec.h; path = ../gclib/GBitVec.h; sourceTree = "<group>"; };
+		ECDC598D1CDD785200D48397 /* gdna.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gdna.cpp; path = ../gclib/gdna.cpp; sourceTree = "<group>"; };
+		ECDC598E1CDD785200D48397 /* gdna.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gdna.h; path = ../gclib/gdna.h; sourceTree = "<group>"; };
+		ECDC598F1CDD785200D48397 /* GFaSeqGet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GFaSeqGet.cpp; path = ../gclib/GFaSeqGet.cpp; sourceTree = "<group>"; };
+		ECDC59901CDD785200D48397 /* GFaSeqGet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFaSeqGet.h; path = ../gclib/GFaSeqGet.h; sourceTree = "<group>"; };
+		ECDC59911CDD785200D48397 /* gff.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gff.cpp; path = ../gclib/gff.cpp; sourceTree = "<group>"; };
+		ECDC59921CDD785200D48397 /* gff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gff.h; path = ../gclib/gff.h; sourceTree = "<group>"; };
+		ECDC59931CDD785200D48397 /* GHash.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GHash.hh; path = ../gclib/GHash.hh; sourceTree = "<group>"; };
+		ECDC59941CDD785200D48397 /* GIntHash.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GIntHash.hh; path = ../gclib/GIntHash.hh; sourceTree = "<group>"; };
+		ECDC59951CDD785200D48397 /* GList.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GList.hh; path = ../gclib/GList.hh; sourceTree = "<group>"; };
+		ECDC59961CDD785200D48397 /* GStr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GStr.cpp; path = ../gclib/GStr.cpp; sourceTree = "<group>"; };
+		ECDC59971CDD785200D48397 /* GStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GStr.h; path = ../gclib/GStr.h; sourceTree = "<group>"; };
+		ECDC59981CDD785200D48397 /* GThreads.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GThreads.cpp; path = ../gclib/GThreads.cpp; sourceTree = "<group>"; };
+		ECDC59991CDD785200D48397 /* GThreads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GThreads.h; path = ../gclib/GThreads.h; sourceTree = "<group>"; };
+		ECDC599A1CDD785200D48397 /* GVec.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GVec.hh; path = ../gclib/GVec.hh; sourceTree = "<group>"; };
+		ECDC599B1CDD785200D48397 /* proc_mem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = proc_mem.cpp; path = ../gclib/proc_mem.cpp; sourceTree = "<group>"; };
+		ECDC599C1CDD785200D48397 /* proc_mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = proc_mem.h; path = ../gclib/proc_mem.h; sourceTree = "<group>"; };
+		ECDC5A0E1CDE38F400D48397 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		ECDC5A111CDE3C0800D48397 /* libbam.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbam.a; path = "../samtools-0.1.18/libbam.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECDC59661CDD781000D48397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDC5A121CDE3C0800D48397 /* libbam.a in Frameworks */,
+				ECDC5A0F1CDE38F400D48397 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECDC59601CDD781000D48397 = {
+			isa = PBXGroup;
+			children = (
+				ECDC5A111CDE3C0800D48397 /* libbam.a */,
+				ECDC5A0E1CDE38F400D48397 /* libz.tbd */,
+				ECDC59A71CDD795700D48397 /* samtools-0.1.18 */,
+				ECDC59831CDD784700D48397 /* gclib */,
+				ECDC59731CDD782A00D48397 /* README.md */,
+				ECDC59741CDD782A00D48397 /* prep_linux.sh */,
+				ECDC59751CDD782A00D48397 /* prep_mac.sh */,
+				ECDC59761CDD782A00D48397 /* prep_source.sh */,
+				ECDC59771CDD782A00D48397 /* rlink.cpp */,
+				ECDC59781CDD782A00D48397 /* rlink.h */,
+				ECDC59791CDD782A00D48397 /* stringtie.cpp */,
+				ECDC597A1CDD782A00D48397 /* tablemaker.cpp */,
+				ECDC597B1CDD782A00D48397 /* tablemaker.h */,
+				ECDC597C1CDD782A00D48397 /* tmerge.cpp */,
+				ECDC597D1CDD782A00D48397 /* tmerge.h */,
+				ECDC596B1CDD781000D48397 /* stringtie */,
+				ECDC596A1CDD781000D48397 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECDC596A1CDD781000D48397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC59691CDD781000D48397 /* stringtie */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECDC596B1CDD781000D48397 /* stringtie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = stringtie;
+			sourceTree = "<group>";
+		};
+		ECDC59831CDD784700D48397 /* gclib */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC59841CDD785200D48397 /* codons.cpp */,
+				ECDC59851CDD785200D48397 /* codons.h */,
+				ECDC59861CDD785200D48397 /* GArgs.cpp */,
+				ECDC59871CDD785200D48397 /* GArgs.h */,
+				ECDC59881CDD785200D48397 /* GBam.cpp */,
+				ECDC59891CDD785200D48397 /* GBam.h */,
+				ECDC598A1CDD785200D48397 /* GBase.cpp */,
+				ECDC598B1CDD785200D48397 /* GBase.h */,
+				ECDC598C1CDD785200D48397 /* GBitVec.h */,
+				ECDC598D1CDD785200D48397 /* gdna.cpp */,
+				ECDC598E1CDD785200D48397 /* gdna.h */,
+				ECDC598F1CDD785200D48397 /* GFaSeqGet.cpp */,
+				ECDC59901CDD785200D48397 /* GFaSeqGet.h */,
+				ECDC59911CDD785200D48397 /* gff.cpp */,
+				ECDC59921CDD785200D48397 /* gff.h */,
+				ECDC59931CDD785200D48397 /* GHash.hh */,
+				ECDC59941CDD785200D48397 /* GIntHash.hh */,
+				ECDC59951CDD785200D48397 /* GList.hh */,
+				ECDC59961CDD785200D48397 /* GStr.cpp */,
+				ECDC59971CDD785200D48397 /* GStr.h */,
+				ECDC59981CDD785200D48397 /* GThreads.cpp */,
+				ECDC59991CDD785200D48397 /* GThreads.h */,
+				ECDC599A1CDD785200D48397 /* GVec.hh */,
+				ECDC599B1CDD785200D48397 /* proc_mem.cpp */,
+				ECDC599C1CDD785200D48397 /* proc_mem.h */,
+			);
+			name = gclib;
+			sourceTree = "<group>";
+		};
+		ECDC59A71CDD795700D48397 /* samtools-0.1.18 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "samtools-0.1.18";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECDC59681CDD781000D48397 /* stringtie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDC59701CDD781000D48397 /* Build configuration list for PBXNativeTarget "stringtie" */;
+			buildPhases = (
+				ECDC59651CDD781000D48397 /* Sources */,
+				ECDC59661CDD781000D48397 /* Frameworks */,
+				ECDC59671CDD781000D48397 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stringtie;
+			productName = stringtie;
+			productReference = ECDC59691CDD781000D48397 /* stringtie */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECDC59611CDD781000D48397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = jhu;
+				TargetAttributes = {
+					ECDC59681CDD781000D48397 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = ECDC59641CDD781000D48397 /* Build configuration list for PBXProject "stringtie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECDC59601CDD781000D48397;
+			productRefGroup = ECDC596A1CDD781000D48397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECDC59681CDD781000D48397 /* stringtie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECDC59651CDD781000D48397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDC59A41CDD785200D48397 /* GStr.cpp in Sources */,
+				ECDC599F1CDD785200D48397 /* GBam.cpp in Sources */,
+				ECDC59A21CDD785200D48397 /* GFaSeqGet.cpp in Sources */,
+				ECDC59A51CDD785200D48397 /* GThreads.cpp in Sources */,
+				ECDC599E1CDD785200D48397 /* GArgs.cpp in Sources */,
+				ECDC59A61CDD785200D48397 /* proc_mem.cpp in Sources */,
+				ECDC59A31CDD785200D48397 /* gff.cpp in Sources */,
+				ECDC597F1CDD782A00D48397 /* rlink.cpp in Sources */,
+				ECDC59A11CDD785200D48397 /* gdna.cpp in Sources */,
+				ECDC59801CDD782A00D48397 /* stringtie.cpp in Sources */,
+				ECDC59821CDD782A00D48397 /* tmerge.cpp in Sources */,
+				ECDC59A01CDD785200D48397 /* GBase.cpp in Sources */,
+				ECDC59811CDD782A00D48397 /* tablemaker.cpp in Sources */,
+				ECDC599D1CDD785200D48397 /* codons.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ECDC596E1CDD781000D48397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "../samtools-0.1.18";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "gclib samtools-0.1.18";
+			};
+			name = Debug;
+		};
+		ECDC596F1CDD781000D48397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "../samtools-0.1.18";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "gclib samtools-0.1.18";
+			};
+			name = Release;
+		};
+		ECDC59711CDD781000D48397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECDC59721CDD781000D48397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECDC59641CDD781000D48397 /* Build configuration list for PBXProject "stringtie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDC596E1CDD781000D48397 /* Debug */,
+				ECDC596F1CDD781000D48397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDC59701CDD781000D48397 /* Build configuration list for PBXNativeTarget "stringtie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDC59711CDD781000D48397 /* Debug */,
+				ECDC59721CDD781000D48397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECDC59611CDD781000D48397 /* Project object */;
+}
